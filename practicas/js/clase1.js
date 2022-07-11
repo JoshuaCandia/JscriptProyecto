@@ -6,8 +6,8 @@ const direccion = "San Juan 915";//string//
 
 // Suma(+) Resta(-) Dividir(/) Multiplicar (*)
 
-let num1 = 2000
-let num2= 3500
+let num1 = 5000;
+let num2= 200;
 
 //ver el codigo en consola//
 //alert(num1 + num2)//mensaje en pagina//
@@ -23,3 +23,8 @@ console.log("La suma de los números es:" +suma);
 
 //let nombrenuevo= prompt("ingrese su nombre") //promt pide datos al usuario//
 //console.log(nombrenuevo)
+
+let numero3 =870;
+let numero4 =90;
+let resta = numero3 - numero4;
+console.log("La resta de los números es:" +resta);
