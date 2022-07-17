@@ -10,8 +10,8 @@ let num1 = 5000;
 let num2= 200;
 
 //ver el codigo en consola//
-//alert(num1 + num2)//mensaje en pagina//
-console.log(num1 + num2) 
+alert(num1 + num2) //mensaje en pagina//
+console.log(num1 + num2) //suma en consola//
 console.log("bienvenidos a nuestra app web") //mensaje en consola//
 
 //aca muestro la suma de la variable en la consola
