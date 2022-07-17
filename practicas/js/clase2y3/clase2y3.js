@@ -76,7 +76,7 @@ if (edad==18){} //un solo dato
 //Se tienen que cumplir todas las condiciones
 
 
-//OLOR = blanco AND botones == true -> Control del aire
+//COLOR = blanco AND botones == true -> Control del aire
 let esBlanco= true
 let tieneBoton= true
 if(esBlaanco && tieneBoton);
@@ -122,7 +122,8 @@ num++ //Pasa a valer 101
 // num-- es lo mismo que num - 1
 */
 
-
+/*
 for (let i = 0; i <= 10;i++){
     alert(i)
 }
+*/
