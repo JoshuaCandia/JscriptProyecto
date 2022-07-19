@@ -98,7 +98,6 @@ if ((userName !="") && ((userName == "JOSHUA") || (userName =="joshua") || (user
 
 //                 PRACTICA SOLICITAR LOGIN
 
-/*
 let userName = prompt ("Ingrese nombre de usuario")
 
 
@@ -113,4 +112,3 @@ if ((userName !="") && ((userName == "JOSHUA") || (userName =="joshua") || (user
 }else{
     alert("Ingrese nombre de usuario valido");
 }
-*/
