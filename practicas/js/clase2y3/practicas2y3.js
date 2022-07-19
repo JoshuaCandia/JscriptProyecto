@@ -70,11 +70,47 @@ if ((fullName !="") && (idNumber !="")){
 */
 
 
-//                     CONDICIONES CON OR ( || ) una comparacion debe ser verdadera
 
+//                     CONDICIONES CON OR ( || ) una comparacion debe ser verdadera
+/*
 let userName = prompt("Ingrese su nombre de usuario")
 
-if ((userName == Ana) || (userName == ana) || (userName == ANA)){
-    alert("El nombre ingresado es Ana")
+if ((userName =="Ana") ||  (userName == "ana")){
+    alert("Bienvenida Ana");
 }else{
-    alert("El nombre ingresado no es Ana")}
+    alert("Ingrese un usuario valido");}
+*/
+
+
+    //                  COMBINACION DE OPERADORES OR Y AND
+
+   /* 
+let userName = prompt ("Ingrese nombre de usuario")
+
+
+if ((userName !="") && ((userName == "JOSHUA") || (userName =="joshua") || (userName =="Joshua"))){
+    alert("Bienvenido Joshua");
+}else{
+    alert("Ingrese nombre de usuario valido");
+}
+*/
+
+
+//                 PRACTICA SOLICITAR LOGIN
+
+/*
+let userName = prompt ("Ingrese nombre de usuario")
+
+
+if ((userName !="") && ((userName == "JOSHUA") || (userName =="joshua") || (userName =="Joshua"))){
+    let password = prompt("Ingrese Contraseña")
+
+    if((password !="") && ((password == 35795128) || (password == 321456))){
+        alert("Bienvenido Joshua")
+    }else{
+        alert("contraseña no valida")
+    }
+}else{
+    alert("Ingrese nombre de usuario valido");
+}
+*/
