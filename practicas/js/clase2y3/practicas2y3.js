@@ -12,9 +12,7 @@ if (oneNumber == 25){
 }
 */
 
-
 //         IF y ELSE sin anidamiento
-
 
 /*
 let userName = prompt("Ingrese el nombre de usuario")
@@ -25,8 +23,6 @@ if (userName == undefined){
     alert("Bienvenido,"+userName)
 }
 */
-
-
 
 //      CONDICIONES ANIDADAS if else if
 
@@ -42,8 +38,6 @@ if (price == 250) {
 }
 */
 
-
-
 //                            VARIABLES BOOLEAN true or false
 /*
 let  oneNumber = 55
@@ -57,7 +51,6 @@ if (isMinor50){
 }
 */
 
-
 //                     CONDICIONES CON AND (&&) todas las comparaciones deben ser verdaderas
 
 /*
@@ -69,8 +62,6 @@ if ((fullName !="") && (idNumber !="")){
 }else("ERROR: Ingrese los datos requeridos")
 */
 
-
-
 //                     CONDICIONES CON OR ( || ) una comparacion debe ser verdadera
 /*
 let userName = prompt("Ingrese su nombre de usuario")
@@ -81,10 +72,9 @@ if ((userName =="Ana") ||  (userName == "ana")){
     alert("Ingrese un usuario valido");}
 */
 
+//                  COMBINACION DE OPERADORES OR Y AND
 
-    //                  COMBINACION DE OPERADORES OR Y AND
-
-   /* 
+/* 
 let userName = prompt ("Ingrese nombre de usuario")
 
 
@@ -95,9 +85,9 @@ if ((userName !="") && ((userName == "JOSHUA") || (userName =="joshua") || (user
 }
 */
 
-
 //                 PRACTICA SOLICITAR LOGIN
 
+/*
 let userName = prompt ("Ingrese nombre de usuario")
 
 
@@ -111,4 +101,27 @@ if ((userName !="") && ((userName == "JOSHUA") || (userName =="joshua") || (user
     }
 }else{
     alert("Ingrese nombre de usuario valido");
+}
+*/
+
+//           EJEMPLO FOR SACAR TURNOS
+/*
+for (let i = 1; i <= 10; i++) {
+  let getName = prompt("Ingresar nombre");
+
+  alert("turno " + i + " Nombre: " + getName);
+}
+
+
+*/
+
+//            EJEMPLO 2 APLIANDO FOR : TABLAS DE MULTIPLICAR
+
+//             SOLICITAMOS UN VALOR AL USUARIO
+let ingresarNumero = parseInt(prompt("Ingresar Numero"));
+
+//             EN CADA REPETICION , CALCULAMOS EL NUMERO INGRESADO X EL NUMERO DE REPETICION (i)
+for (let i = 1; i <= 10; i++) {
+  let resultado = ingresarNumero * i;
+  console.log(ingresarNumero + "x" + i + " = " + resultado);
 }
